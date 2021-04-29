@@ -1,0 +1,34 @@
+:root {
+    font-size: 60%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",  "Secular One", sans-serif;
+    font-size: 400;
+}
+
+input {
+    outline: none;
+}
+
+html, 
+body {
+    height: 100vh;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+@media (max-width: 699px) {
+    :root {
+        font-size: 40%;
+    }
+}
