@@ -1,12 +1,10 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const nodemailer = require("nodemailer")
-const dotenv = require("dotenv").config()
+require("dotenv").config()
 
-const user = "empresara7@gmail.com"
-const pass = ""
-
-
+const user = process.env.user
+const pass = process.env.pass
 
 const app = express()
 
@@ -46,7 +44,7 @@ app.use(express.static("public"))
             replyTo: user,
             subject: "Atendimento Galac",
             text: `Olá ${data.name}, recebemos sua mensagem, em breve entraremos em contato.`
-        }).then(info => {   
+        }).then(info => {
             console.log("enviado")
             res.redirect("/")
         }).catch(error => {
