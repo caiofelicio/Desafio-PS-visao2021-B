@@ -435,6 +435,13 @@
     color: #fff;
 }
 
+@media (max-width: 991px){
+    .header.header.nav-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 /* @media (max-width: 700px) {
     :root {
         font-size: 62.5%;
