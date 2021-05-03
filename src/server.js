@@ -1,10 +1,10 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const nodemailer = require("nodemailer")
-const dotenv = require("dotenv")
+const dotenv = require("dotenv").config()
 
 const user = "empresara7@gmail.com"
-const pass = "uvjbbgqplwqmokws"
+const pass = ""
 
 
 
