@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: "Roboto",  "Secular One", sans-serif;
     font-size: 400;
+    outline: none;
 }
 
 input {
