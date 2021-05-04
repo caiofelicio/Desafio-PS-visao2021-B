@@ -8,6 +8,15 @@
     align-items: center;
     justify-content: space-between;
 }
+.header .galac{
+    text-decoration: none;
+}
+
+.header .galac:hover{
+    border-bottom: none;
+    cursor: default;
+}
+
 
 .logo img{
     width: 100px;
@@ -370,7 +379,7 @@
     align-items: center;
     padding: 15px;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     height: 80vh;
     border-radius: 10px;
     background-color: #f27405;
