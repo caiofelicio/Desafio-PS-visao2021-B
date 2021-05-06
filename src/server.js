@@ -52,4 +52,4 @@ app.use(express.static("public"))
         })
     })
 
-    .listen(3300, () => { console.log("\nServidor iniciado na porta 5500. http://localhost:3300") })
+    .listen(3300, () => { console.log("\nServidor iniciado na porta 3300. http://localhost:3300") })
