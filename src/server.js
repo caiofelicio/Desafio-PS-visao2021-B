@@ -21,7 +21,7 @@ app.use(express.static("public"))
         return res.render("index.html")
     })
 
-    .post("/", (req, res) => {
+    .post("/send-form", (req, res) => {
         const data = {
             name: req.body.name,
             email: req.body.email,
@@ -48,6 +48,7 @@ app.use(express.static("public"))
             console.log("enviado")
             res.redirect("/")
         }).catch(error => {
+            console.log("nao enviado")
             res.redirect("/")
         })
     })
