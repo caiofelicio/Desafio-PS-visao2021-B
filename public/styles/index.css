@@ -58,13 +58,15 @@
     text-decoration: none;
     width: 28px;
     height: 28px;
-
 }
 
-/* .header .social-medias .whatsapp {
-    width: 28px;
-    height: 28px;
-} */
+
+.whatsapp {
+    max-width:70%;
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+} 
 
 .header .social-medias a:hover {
     border: none;
