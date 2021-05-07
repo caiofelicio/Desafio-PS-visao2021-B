@@ -59,7 +59,6 @@ app.use(express.static("public"))
         })
 
         .catch(() => {
-            console.log("email nao enviado")
             res.redirect("/failed.html")
         })        
     })
