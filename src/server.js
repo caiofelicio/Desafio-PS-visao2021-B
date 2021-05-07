@@ -3,8 +3,11 @@ const bodyParser = require("body-parser")
 const nodemailer = require("nodemailer")
 require("dotenv").config()
 
+
 const user = process.env.user
 const pass = process.env.pass
+const port = process.env.PORT || 3300
+
 
 const app = express()
 
@@ -16,7 +19,6 @@ app.use(express.static("public"))
 
     .use(bodyParser.json())
 
-    
     .get("/", (req, res) => {
         return res.render("index.html")
     })
@@ -58,4 +60,4 @@ app.use(express.static("public"))
         })
     })
 
-    .listen(3300, () => { console.log("\nServidor iniciado na porta 3300. http://localhost:3300") })
+    .listen(port, () => { console.log(`\nServidor iniciado na porta ${port}. http://localhost:${port}`) })

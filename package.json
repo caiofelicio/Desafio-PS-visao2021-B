@@ -4,7 +4,8 @@
   "description": "###### PS Visão Jr 2021",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon node src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
