@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5; URL='/'"/>
+    <link rel="stylesheet" href="/styles/sucess.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="../assets/galac-icon.ico" type="image/x-icon" />
+    <title>Email enviado</title>
+</head>
+<body>
+    
+    <div class="opacity container">
+        <div class="square">
+            <p>E-mail enviado</p>
+            <span>Em breve entraremos em contado</span>
+            <h2 id="timer">Você será redirecionado para o site em 5 segundos</h2>
+        </div>
+    </div>
+
+    <script>
+        var cont = 5 
+        setInterval(function() {
+            document.getElementById("timer").innerHTML = `Você será redirecionado para o site em ${cont} segundos`
+            cont--
+        }, 1000)
+    </script>
+
+</body>
+</html>

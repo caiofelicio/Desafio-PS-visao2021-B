@@ -21,7 +21,7 @@ app.use(express.static("public"))
         return res.render("index.html")
     })
 
-    .post("/send-form", (req, res) => {
+    .post("/", (req, res) => {
         const data = {
             name: req.body.name,
             email: req.body.email,
@@ -44,9 +44,14 @@ app.use(express.static("public"))
             replyTo: user,
             subject: "Atendimento Galac",
             text: `Olá ${data.name}, recebemos sua mensagem, em breve entraremos em contato.`
-        }).then(info => {
+        })
+
+        // res.render("sucess.html")
+
+        .then(info => {
             console.log("enviado")
-            res.redirect("/")
+            res.redirect("/sucess.html")
+            // return res.render("sucess.html")
         }).catch(error => {
             console.log("nao enviado")
             res.redirect("/")
