@@ -578,8 +578,9 @@
     }
     
     .block2 .history article {
-        font-size: 200%;
+        font-size: 250%;
         margin-top: 0px;
+        width: 90%;
     }
 
 
@@ -628,15 +629,19 @@
         font-size: 20px;
     
     }
-
+    .block3 .services-content .services {
+        height: 90%;
+    }
     .info {
         padding: 5px;
-        margin-top: 10px;
+        margin-top: 0%;
     }
     
     .info p {
         /* margin-top: 5px; */
-        font-size: 10px;
+        margin-top: 0%;
+        font-size: 270%;
+        width: 130%;
     }
     
     .block3 .tosa {
@@ -729,7 +734,7 @@
     }
 
     .block2 {
-        height: 70vh;
+        height: 80vh;
         width: auto;
     }
     
@@ -754,10 +759,11 @@
     
     .block2 .sections article {
         margin-top: 5px;
-        font-size: 10px;        
+        font-size: 200%;        
     }
     
     .block2 .history {
+        margin-top: 20%;
         height: 60vh;
     }
     
@@ -767,7 +773,7 @@
     }
     
     .block2 .history article {
-        font-size: 10px;
+        font-size: 250%;
         margin-top: 0px;
     }
 
@@ -814,7 +820,7 @@
     
     .info p {
         margin-top: 5px;
-        font-size: 10px;
+        font-size: 200%;
     }
     
     .block3 .tosa {
@@ -892,12 +898,16 @@
     }
 
     .block2 {
-        height: 100vh;
+        height: 120%;
         width: auto;
     }
     
     .block2 .history h1 {
-        margin-top: 300px;        
+        margin-top: 120%;        
+    }
+
+    .block2 .sections article {
+        font-size: 220%;
     }
 
     .block3 .google-form .agendamento h2 {
@@ -933,6 +943,7 @@
         font-size: 15px;
     
     }
+
 
     .info {
         padding: 2px;
