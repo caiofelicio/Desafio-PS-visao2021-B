@@ -513,8 +513,16 @@
         overflow-x: hidden; 
     }
 
+    #imageBg{
+        background-position: 600%;
+    }
+
+    .sliderButtons{
+        width: 106%;
+    }
+
     .block1 {
-        background-position: 800%;
+        height: 50vh;
     }
 
 
@@ -588,10 +596,27 @@
         overflow-x: hidden; 
     }
 
+    #imageBg {
+        background-position: 600%;
+    }
+
+    .sliderButtons{
+        height: 1%;
+        width: 122%;
+    }
+
+    .previous, .next {
+        width: auto;
+        line-height: 70px;
+        margin-top: -350px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 160px;
+    }
+
     .block1 {
-        background-image: url(../assets/dog-background.png);
-        height: 50vh;
-        background-position: 100% top;
+        /* background-image: url(../assets/dog-background.png); */
+        height: 45vh;
         width: auto;
     }
 
@@ -612,7 +637,7 @@
         justify-content: start;
     }
     .block2 .sections section {
-        margin-top: 0px;
+        margin-top: 3px;
     }
     
     .block2 .sections img {
@@ -743,7 +768,8 @@
     .block3 .google-form .iframe iframe {
         justify-content: center;
         width: 300px;
-        height: 450px;
+        height: 400px;
+        margin-bottom: 60%;
     }
 
     .block4 {
@@ -783,16 +809,20 @@
 }
 
 
-@media (max-width: 412px){
+@media (max-width: 410px){
 
     html, body{
         overflow-x: hidden; 
     }
 
+    #imageBg {
+        background-position: 200%;
+    }
+
     .block1 {
-        background-image: url(../assets/dog-background.png);
+        /* background-image: url(../assets/dog-background.png); */
         height: 50vh;
-        background-position: 100% top;
+        /* background-position: 100% top; */
         width: auto;
 
     }
@@ -961,8 +991,8 @@
 }
 
 @media (max-width: 375px){
-    .block1{
-        background-position: 90%;
+    #imageBg{
+        background-position: 450%;
     }
 
     .block2 {
@@ -1063,9 +1093,20 @@
         overflow-x: hidden; 
     }
 
+    .sliderButtons{
+        width: 110%;
+    }
+
+    .previous, .next {
+    width: auto;
+    line-height: 80px;
+    margin-top: -350px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 160px;
+}
     .block1 {
-        background-position: 100%;
-        height: 50vh;
+        height: 40vh;
     }
 
     .block4 .left-content input:not(:last-child) {
@@ -1213,8 +1254,25 @@
 }
 
 @media (height: 768px){
-    .block1 {
-        background-position: 230%;
+
+    #imageBg{
+        background-position: 400%;
+    }
+    .sliderButtons{
+        width: 110%;
+    }
+
+    .previous, .next {
+    width: auto;
+    line-height: 80px;
+    margin-top: -350px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 160px;
+}
+
+    .block1{
+        height: 60vh;
     }
 
     .block2{
