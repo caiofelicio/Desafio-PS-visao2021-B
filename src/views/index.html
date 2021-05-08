@@ -54,8 +54,20 @@
     <li><a href="#agendamento">Agendamento</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
+
+
+
+
   <div class="block1" id="home">
     <!-- <img src="../assets/dog-background.png" alt="background image" class="background"> -->
+
+  <!-- slide de fotos -->
+ 
+
+    <div id="imageBg"></div>
+    <div class="previous" onclick="previous()"><i class="material-icons">navigate_before</i></div>
+    <div class="next" onclick="next()"><i class="material-icons">navigate_next</i></div>
+    
 
     <div class="social-medias">
       <a href="#" target="_blank"><img class="facebook" src="../assets/facebook.svg" alt="Facebook" /></a>
@@ -65,7 +77,13 @@
       <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+5531987577261&text=Bem vindo ao Galac PetShop! Em instantes você será atendido." target="_blank">
         <img class="whatsapp" src="../assets/whatsapp.svg" alt="WhatsApp" /></a>
     </div>
+  
   </div>
+
+    <div class="sliderButtons" >
+    <ul  id="botoes">
+    </ul> 
+    </div>
 
   <div class="block2" id="about">
     <!-- block2 - text, imagens, espaçamentos, -->
@@ -207,9 +225,14 @@
 
 
   <script src="./scripts/scroll.js"></script>
+  <script src="./scripts/slider.js"></script>
+
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
+  <!-- funcao para navbar -->
   <script>
     $(function () {
       $(".button-collapse").sideNav({
