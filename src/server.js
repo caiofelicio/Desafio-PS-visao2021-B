@@ -57,7 +57,6 @@ app.use(express.static("public"))
             })
             res.redirect("/contato.html")
         })
-
         .catch(() => {
             res.redirect("/failed.html")
         })        
