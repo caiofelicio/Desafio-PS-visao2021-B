@@ -4,9 +4,9 @@ const nodemailer = require("nodemailer")
 require("dotenv").config()
 
 
+const port = process.env.PORT || 3300
 const user = process.env.user
 const pass = process.env.pass
-const port = process.env.PORT || 3300
 
 
 const app = express()
@@ -35,29 +35,31 @@ app.use(express.static("public"))
             host: "smtp.gmail.com",
             port: 587,
             auth: {
-            user,
-            pass
-         }
+                user,
+                pass
+             }
         })
-
+    
         transporter.sendMail({
             from: user,
-            to: data.email,
+            to: user,
             replyTo: user,
-            subject: "Atendimento Galac",
-            text: `Olá ${data.name}, recebemos sua mensagem, em breve entraremos em contato.`
+            subject: "Email de cliente",
+            text: `Dados do cliente:\n\nNome: ${data.name}\nEmail: ${data.email}\nTelefone: ${data.telefone}\nMensagem: ${data.mensagem}`,
         })
-
-        // res.render("sucess.html")
-
-        .then(info => {
-            console.log("enviado")
-            res.redirect("/sucess.html")
-            // return res.render("sucess.html")
-        }).catch(error => {
-            console.log("nao enviado")
-            res.redirect("/")
+        .then(() => {
+            transporter.sendMail({
+                from: user,
+                to: data.email,
+                replyTo: user,
+                subject: "Atendimento Galac",
+                text: `Olá ${data.name}, recebemos sua mensagem, em breve entraremos em contato.`,
+            })
+            res.redirect("/contato.html")
         })
+        .catch(() => {
+            res.redirect("/failed.html")
+        })        
     })
 
     .listen(port, () => { console.log(`\nServidor iniciado na porta ${port}. http://localhost:${port}`) })
