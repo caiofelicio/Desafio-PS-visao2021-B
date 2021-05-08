@@ -27,7 +27,7 @@
     height: 100%;
     background-size: cover;
     transition: 1s;
-    background-position: 400%;
+    background-position: 100%;
 }
 
 .previous, .next {
@@ -513,9 +513,6 @@
         overflow-x: hidden; 
     }
 
-    #imageBg{
-        background-position: 600%;
-    }
 
     .sliderButtons{
         width: 106%;
@@ -597,7 +594,7 @@
     }
 
     #imageBg {
-        background-position: 600%;
+        background-position: 50%;
     }
 
     .sliderButtons{
@@ -815,9 +812,6 @@
         overflow-x: hidden; 
     }
 
-    #imageBg {
-        background-position: 200%;
-    }
 
     .block1 {
         /* background-image: url(../assets/dog-background.png); */
@@ -991,9 +985,9 @@
 }
 
 @media (max-width: 375px){
-    #imageBg{
+    /* #imageBg{
         background-position: 450%;
-    }
+    } */
 
     .block2 {
         height: 120%;
@@ -1255,9 +1249,9 @@
 
 @media (height: 768px){
 
-    #imageBg{
+    /* #imageBg{
         background-position: 400%;
-    }
+    } */
     .sliderButtons{
         width: 110%;
     }
