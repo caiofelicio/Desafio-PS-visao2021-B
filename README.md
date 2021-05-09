@@ -8,7 +8,7 @@
 
 Aplicação desenvolvida durante o desafio de projetos para o processo seletivo [Visão Jr](https://www.visaojr.com.br/) 2021.
 
-A aplicação consiste em uma página para a empresa fictícia criada durante o desafio de presidência, que nesse caso se chama [Petshop Galac](http://petshop-galac.herokuapp.com/). Um petshop que presta serviços de banho, tosa, consultas, vacinação, além de um ambiente que prioriza o bem-estar de seu animalzinho de estimação.
+A aplicação consiste em uma página para a empresa fictícia criada durante o desafio de presidência, que nesse caso se chama [Petshop Galac](petshop-galac.herokuapp.com/). Um petshop que presta serviços de banho, tosa, consultas, vacinação, além de um ambiente que prioriza o bem-estar de seu animalzinho de estimação.
 
 # Equipe
 
