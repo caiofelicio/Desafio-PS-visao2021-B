@@ -1,0 +1,657 @@
+@media (max-width: 1024px) and (min-width: 999px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #slider {
+        top: -7px;
+    }
+    
+    .block1 {
+        height: 50vh;
+    }
+    .block2 .sections section {
+        margin-top: 200px;
+    }
+    .block2 {
+        height: 60vh;
+        width: auto;
+    }
+    .block2 .sections {
+        height: 13vh;
+        padding: 5px;
+    }
+    .block2 .sections article {
+        font-size: 180%;
+    }
+    .block2 .sections h2 {
+        font-size: 280%;
+    }
+    .block2 .history article {
+        font-size: 250%;
+    }
+    .block3 {
+        height: 60vh;
+    }
+    .block3 .iframe {
+        height: 10vh;
+    }
+    .block3 .services {
+        height: 50vh;
+        margin-bottom: 30%;
+    }
+    .block3 .google-form {
+        align-items: stretch;
+        width: 40%;
+        height: 100vh;
+    }
+
+    .block3 .google-form .iframe iframe{
+        margin-top: 90px;
+        height: 500px;
+    }
+
+    .block3 .google-form .agendamento {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+
+    .block4 {
+        height: 70%;
+    }
+
+    .block4 .right-content .contact {
+        height: 450px;
+    }
+
+    .block3 .google-form .iframe {
+        height: 30vh;
+        margin-bottom: 50%;
+    }
+    .block4 .right-content .contact iframe {
+        margin-top: 24px;
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    #slider {
+        top: -7px;
+    }
+    
+    .block1 {
+        height: 45vh;
+        width: auto;
+    }
+    .block1 .background img {
+        height: 60px;
+    }
+    .block2 {
+        height: 100vh;
+        width: auto;
+    }
+    .block2 .sections {
+        height: 13vh;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .block2 .sections section {
+        margin-top: 3px;
+    }
+    .block2 .sections img {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .block2 .sections h2 {
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .margin p {
+        margin-top: auto;
+        font-size: 250%;
+    }
+    .block2 .sections article {
+        margin-top: 5px;
+        font-size: 260%;
+    }
+    .block2 .history {
+        height: 60vh;
+    }
+    .block2 .history h1 {
+        margin-top: 125%;
+        font-size: 20px;
+    }
+    .block2 .history article {
+        font-size: 250%;
+        margin-top: 0;
+        width: 90%;
+    }
+    .block3 {
+        width: auto;
+        height: 120vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .block3 .google-form .agendamento h2 {
+        font-size: 120%;
+        margin-left: 10px;
+    }
+    .block3 .agendamento img {
+        width: 60%;
+        height: 60%;
+    }
+    .block3 .services-content {
+        width: 100%;
+        height: 100vh;
+    }
+    .margin {
+        margin-bottom: 10px;
+        width: 20px;
+        height: 20px;
+        align-items: flex-start;
+    }
+    .margin img {
+        width: 20px;
+        height: 20px;
+    }
+    .block3 .services-content .solutions img {
+        width: 24px;
+        margin-right: 5px;
+        height: 25px;
+    }
+    .block3 .services-content h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .block3 .services-content .services {
+        height: 90%;
+    }
+    .info {
+        padding: 5px;
+        margin-top: 0%;
+    }
+    .info p {
+        margin-top: 0%;
+        font-size: 270%;
+        width: 130%;
+    }
+    .block3 .tosa {
+        margin-top: 10px;
+    }
+    .block3 .services {
+        height: 40vh;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .block3 .google-form {
+        align-items: stretch;
+        width: 40%;
+        height: 100vh;
+    }
+    .block3 .google-form .agendamento {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .block3 .google-form .iframe {
+        height: 60vh;
+        padding-top: 40px
+    }
+    .block3 .google-form .iframe iframe {
+        justify-content: center;
+        /* margin-top: 30px; */
+        width: 300px;
+        height: 270px;
+        margin-bottom: 90%;
+    }
+    .block4 {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        width: auto;
+    }
+    .block4 .left-content input:not(:last-child) {
+        width: 350px;
+    }
+    .block4 .right-content {
+        width: 120%;
+    }
+    .block4 .left-content h1 {
+        font-size: 200%;
+    }
+    .block4 .left-content {
+        width: 100%;
+    }
+    .block4 .right-content .contact iframe {
+        margin-top: 24px;
+        width: 300px;
+        height: 400px;
+    }
+    .logo img {
+        width: 75px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 410px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    #slider  {
+        top: -7px;
+    }
+    .block1 {
+        height: 50vh;
+        width: auto;
+    }
+    .block1 .background img {
+        height: 60px;
+    }
+    .block2 {
+        height: 80vh;
+        width: auto;
+    }
+    .block2 .sections {
+        height: 13vh;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .block2 .sections img {
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .block2 .sections h2 {
+        margin-top: 1px;
+        font-size: 15px;
+    }
+    .block2 .sections article {
+        margin-top: 5px;
+        font-size: 200%;
+    }
+    .block2 .history {
+        margin-top: 20%;
+        height: 60vh;
+    }
+    .block2 .history h1 {
+        margin-top: 120px;
+        font-size: 20px;
+    }
+    .block2 .history article {
+        font-size: 250%;
+        margin-top: 0px;
+    }
+    .block3 {
+        width: auto;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .block3 .services-content {
+        width: 100%;
+        height: 100vh;
+    }
+    .margin {
+        margin-bottom: 10px;
+        width: 20px;
+        height: 20px;
+        align-items: flex-start;
+    }
+    .margin img {
+        width: 20px;
+        height: 20px;
+    }
+    .block3 .services-content .solutions img {
+        width: 24px;
+        margin-right: 5px;
+        height: 25px;
+    }
+    .block3 .services-content h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .info {
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .info p {
+        margin-top: 5px;
+        font-size: 200%;
+    }
+    .block3 .tosa {
+        margin-top: 10px;
+    }
+    .block3 .services {
+        height: 40vh;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .block3 .google-form {
+        align-items: stretch;
+        width: 40%;
+        height: 100vh;
+    }
+    .block3 .google-form .agendamento {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .block3 .google-form .agendamento h2 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .block3 .google-form .iframe {
+        height: 30vh;
+        padding-top: 40px;
+    }
+    .block3 .google-form .iframe iframe {
+        justify-content: center;
+        width: 300px;
+        height: 200px;
+    }
+    .block4 {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        width: auto;
+    }
+    .block4 .left-content input:not(:last-child) {
+        width: 350px;
+    }
+    .block4 .right-content {
+        width: 120%;
+    }
+    .block4 .right-content .contact iframe {
+        margin-top: 24px;
+        width: 300px;
+    }
+    .logo img {
+        width: 75px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    #slider {
+        top: -7px;
+    }
+
+    .block2 {
+        height: 120%;
+        width: auto;
+    }
+    .block2 .history h1 {
+        margin-top: 120%;
+    }
+
+    .block2 .history .galac-history {
+        font-size: 200%;
+        color: #000;
+    }
+
+    .block2 .sections article {
+        font-size: 200%;
+    }
+
+    .block3 .google-form .agendamento h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .block3 .agendamento img {
+        width: 50%;
+        height: 50%;
+    }
+    .margin {
+        height: 20px;
+    }
+    .margin img {
+        width: 15px;
+        height: 15px;
+    }
+    .block3 .services {
+        height: 80%;
+    }
+    .block3 .services-content .solutions img {
+        width: 20px;
+        margin-right: 1px;
+        height: 20px;
+    }
+    .block3 .services-content h2 {
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .info {
+        padding: 2px;
+        margin-top: 1px;
+    }
+    .info p {
+        margin-top: 1px;
+    }
+    .block3 .google-form {
+        height: 100vh;
+    }
+    .block3 .google-form .iframe {
+        height: 50vh;
+    }
+    .block3 .google-form .iframe iframe {
+        height: 300px;
+        margin-top: 90px;
+    }
+    .block4 {
+        height: auto;
+    }
+    .block4 .left-content {
+        margin-top: 60%;
+    }
+    .block4 .left-content input:not(:last-child) {
+        width: 300px;
+    }
+
+    .block4 .right-content .contact {
+        font-size: 90%;
+    }
+
+    .block4 .right-content .contact .telefone-galac{
+        margin-left: 4px;
+    }
+
+    .block4 .right-content .contact iframe {
+        width: 225px;
+    }
+}
+/*Criando media para tela deitada*/
+
+@media(max-width: 850px) and (min-width: 500px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #slider img{
+        top: -7px;
+    }
+
+    .block1 {
+        height: 40vh;
+    }
+    .block4 .left-content input:not(:last-child) {
+        width: 350px;
+    }
+    .block4 .right-content {
+        width: 120%;
+    }
+    .block4 .left-content h1 {
+        font-size: 200%;
+    }
+    .block4 .left-content {
+        width: 100%;
+    }
+    .block4 .right-content .contact iframe {
+        margin-top: 24px;
+        width: 500px;
+        height: 500px;
+    }
+    .block4 {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media(max-width: 823px) and (min-width: 500px) {
+    #slider img{
+        top: -7px;        
+    }
+    
+    .block1 {
+        height: 100%;
+    }
+    .block2 {
+        height: 170%;
+    }
+    .block2 .history h1 {
+        margin-top: 50%;
+    }
+    .block2 .sections article {
+        width: auto;
+        font-size: medium;
+    }
+    .block3 {
+        height: 120%;
+    }
+    .block3 .solutions h2 {
+        font-size: medium;
+        margin-bottom: 0%;
+    }
+    .margin img {
+        width: 200%;
+        height: 100%;
+    }
+    .margin {
+        width: 5%;
+        height: 20%;
+    }
+    .margin p {
+        font-size: 150%;
+    }
+    .services-content .services .solutions img {
+        width: 20%;
+        height: 30%;
+        margin-top: 20%;
+    }
+    .block3 .google-form .agendamento h2 {
+        font-size: 50%;
+        margin-bottom: 20%;
+    }
+    .block3 .google-form .agendamento img {
+        width: 45%;
+        height: 45%;
+        margin-bottom: 16%;
+    }
+    .services-content .services .info {
+        margin-top: 0%;
+        width: 160%;
+    }
+    .services .info h2 {
+        margin-top: 0%;
+        font-size: 150%;
+    }
+    .services .info p {
+        margin-top: 0%;
+        font-size: 130%;
+    }
+    .block4 .right-content .contact {
+        height: 60%;
+    }
+    .block4 {
+        height: auto;
+    }
+    .block4 .left-content {
+        margin-top: 20%;
+    }
+}
+
+@media (max-height: 320px) {
+    .block2 .sections img {
+        width: 20%;
+        height: 20%;
+    }
+    .block2 .sections h2 {
+        font-size: 220%;
+    }
+    .block2 .sections article {
+        font-size: 200%;
+    }
+    .block2 .history h1 {
+        font-size: 300%;
+        margin-top: 50%;
+    }
+    .block2 .history article {
+        font-size: 200%;
+    }
+    .logo img {
+        width: 70px;
+        height: 60px;
+    }
+    .block3 .google-form .agendamento {
+        margin-bottom: 20%;
+    }
+}
+
+@media (height: 768px) {
+
+    .block1 {
+        height: 60vh;
+    }
+    .block2 {
+        height: 150%;
+    }
+    .block2 .sections section {
+        margin-top: 40%;
+    }
+    .block2 .history {
+        margin-top: 40%;
+    }
+    .block3 {
+        height: 100%;
+    }
+    .block3 .services .solutions {
+        margin-top: 20%;
+    }
+    .block3 .services .solutions h2 {
+        font-size: 260%;
+    }
+    .block3 .info h2 {
+        margin-top: 0%;
+        font-size: 260%;
+    }
+    .block3 .info p {
+        margin-top: 0%;
+    }
+    .block3 .services-content .services {
+        margin-top: 70%;
+        height: 70%;
+    }
+
+}
+
+@media (height: 1024px) {
+    
+    .block4 .right-content .contact {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .block4 .right-content .contact iframe{
+        width: 550px;
+    }
+}
