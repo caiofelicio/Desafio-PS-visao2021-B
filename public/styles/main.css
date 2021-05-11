@@ -2,6 +2,9 @@
     font-size: 60%;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 * {
     margin: 0;
@@ -12,21 +15,10 @@
     outline: none;
 }
 
-input {
-    outline: none;
-}
-
 html, 
 body {
     height: 100vh;
 }
-
-/* body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
 
 @media (max-width: 699px) {
     :root {
